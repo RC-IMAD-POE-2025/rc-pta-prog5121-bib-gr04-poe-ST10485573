@@ -1,8 +1,8 @@
-name: Funiwe Unit Testing
+name: Funiwe Unit Tests
 
 on:
   push:
-    branches: [ main]
+    branches: [ main ]
   pull_request:
     branches: [ main ]
 
