@@ -235,7 +235,9 @@ public class LoginGUI extends javax.swing.JFrame
         JOptionPane.showMessageDialog(this, status);
         if (loggedIn)
         {
-        dispose(); // Close this form
+            MessageGUI messageGUI = new MessageGUI();
+            messageGUI.startMessagingInteraction();
+            dispose(); // Close this form
         }
     }//GEN-LAST:event_loginButtonActionPerformed
 

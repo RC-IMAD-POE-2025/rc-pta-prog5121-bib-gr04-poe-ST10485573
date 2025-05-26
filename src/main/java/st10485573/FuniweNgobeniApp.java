@@ -24,19 +24,38 @@
 package st10485573;
 
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 
-public class FuniweNgobeniApp 
-{
-    // Main method to kick things off
+/**
+ * Main application class for Funiwe Ngobeni's QuickChat.
+ * Initializes core logic objects and starts the GUI flow with Registration.
+ *
+ * @author Funiwe Ngobeni
+ * @version 1.1 (Corrected main app flow)
+ */
+public class FuniweNgobeniApp {
+
+    /**
+     * Main method to launch the QuickChat application.
+     * It creates the core logic objects and displays the initial Registration GUI.
+     *
+     * @param args Command-line arguments (not used).
+     */
     public static void main(String[] args) {
-        // Create our core objects
-        Registration reg = new Registration();
-        Login login = new Login(reg);
+        // It's good practice to run Swing GUI code on the Event Dispatch Thread (EDT)
+        javax.swing.SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                // Create core business logic objects
+                Registration reg = new Registration();
+                Login login = new Login(reg); // Login logic depends on Registration data
 
-        // Start with the registration form
-        RegistrationGUI regGUI = new RegistrationGUI(reg, login);
-        regGUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Exit app when closed
-        regGUI.setLocationRelativeTo(null); // Center it on screen
-        regGUI.setVisible(true); // Show it!
+                // Start with the registration form.
+                // The RegistrationGUI will be responsible for transitioning to LoginGUI.
+                RegistrationGUI regGUI = new RegistrationGUI(reg, login);
+                regGUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Exit app when this main window is closed
+                regGUI.setLocationRelativeTo(null); // Center it on screen
+                regGUI.setVisible(true); // Show it!
+            }
+        });
     }
 }
