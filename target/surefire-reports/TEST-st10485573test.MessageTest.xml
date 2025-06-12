@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="st10485573test.MessageTest" time="0.276" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="st10485573test.MessageTest" time="0.082" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Justin\source\rc-pta-prog5121-bib-gr04-poe-ST10485573\target\test-classes;C:\Users\Justin\source\rc-pta-prog5121-bib-gr04-poe-ST10485573\target\classes;C:\Users\Justin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Justin\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Justin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Justin\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Justin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Justin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Justin\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\Justin\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Justin\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Justin\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
+    <property name="java.class.path" value="C:\Users\Justin\Downloads\PROG5121-POE-FINAL-GIT\Funiwe\rc-pta-prog5121-bib-gr04-poe-ST10485573\target\test-classes;C:\Users\Justin\Downloads\PROG5121-POE-FINAL-GIT\Funiwe\rc-pta-prog5121-bib-gr04-poe-ST10485573\target\classes;C:\Users\Justin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Justin\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Justin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Justin\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Justin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Justin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Justin\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\Justin\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Justin\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Justin\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="Africa/Johannesburg"/>
+    <property name="user.country.format" value="150"/>
     <property name="os.name" value="Windows 11"/>
     <property name="java.vm.specification.version" value="21"/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\Justin\AppData\Local\Temp\surefire11592226644593266755\surefirebooter-20250525223918402_3.jar C:\Users\Justin\AppData\Local\Temp\surefire11592226644593266755 2025-05-25T22-39-18_180-jvmRun1 surefire-20250525223918402_1tmp surefire_0-20250525223918402_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Justin\AppData\Local\Temp\surefire1532351269318943074\surefirebooter-20250612222245713_3.jar C:\Users\Justin\AppData\Local\Temp\surefire1532351269318943074 2025-06-12T22-22-45_526-jvmRun1 surefire-20250612222245713_1tmp surefire_0-20250612222245713_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="st10485573test.MessageTest"/>
-    <property name="surefire.test.class.path" value="C:\Users\Justin\source\rc-pta-prog5121-bib-gr04-poe-ST10485573\target\test-classes;C:\Users\Justin\source\rc-pta-prog5121-bib-gr04-poe-ST10485573\target\classes;C:\Users\Justin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Justin\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Justin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Justin\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Justin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Justin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Justin\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\Justin\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Justin\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Justin\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
+    <property name="test" value="st10485573test.MessageTest#testCreateMessageHash_WithOneWordPayload_ReturnsCorrectHash"/>
+    <property name="surefire.test.class.path" value="C:\Users\Justin\Downloads\PROG5121-POE-FINAL-GIT\Funiwe\rc-pta-prog5121-bib-gr04-poe-ST10485573\target\test-classes;C:\Users\Justin\Downloads\PROG5121-POE-FINAL-GIT\Funiwe\rc-pta-prog5121-bib-gr04-poe-ST10485573\target\classes;C:\Users\Justin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Justin\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Justin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Justin\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Justin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Justin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Justin\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\Justin\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Justin\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Justin\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Justin"/>
     <property name="user.language" value="en"/>
@@ -26,12 +27,12 @@
     <property name="java.version.date" value="2025-01-21"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\Justin\source\rc-pta-prog5121-bib-gr04-poe-ST10485573"/>
+    <property name="basedir" value="C:\Users\Justin\Downloads\PROG5121-POE-FINAL-GIT\Funiwe\rc-pta-prog5121-bib-gr04-poe-ST10485573"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Justin\AppData\Local\Temp\surefire11592226644593266755\surefirebooter-20250525223918402_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Justin\AppData\Local\Temp\surefire1532351269318943074\surefirebooter-20250612222245713_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
@@ -47,7 +48,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Justin\AppData\Local\Temp\"/>
     <property name="java.version" value="21.0.6"/>
-    <property name="user.dir" value="C:\Users\Justin\source\rc-pta-prog5121-bib-gr04-poe-ST10485573"/>
+    <property name="user.dir" value="C:\Users\Justin\Downloads\PROG5121-POE-FINAL-GIT\Funiwe\rc-pta-prog5121-bib-gr04-poe-ST10485573"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -60,19 +61,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testValidatePayloadLength_TooLongPayload_ReturnsFailureMessageWithExcessCount" classname="st10485573test.MessageTest" time="0.044"/>
-  <testcase name="testValidateRecipientNumber_InvalidFormat_ReturnsFailureMessage" classname="st10485573test.MessageTest" time="0.004"/>
-  <testcase name="testSentMessage_EmptyPayload_ReturnsFailure" classname="st10485573test.MessageTest" time="0.002"/>
-  <testcase name="testCreateMessageHash_WithSpecifiedData_ReturnsCorrectHash" classname="st10485573test.MessageTest" time="0.014"/>
-  <testcase name="testReturnTotalMessages_NoMessagesSent_ReturnsZero" classname="st10485573test.MessageTest" time="0.001"/>
-  <testcase name="testMessageConstructor_InitializesPropertiesCorrectly" classname="st10485573test.MessageTest" time="0.004"/>
-  <testcase name="testSentMessage_InvalidRecipient_ReturnsFailure" classname="st10485573test.MessageTest" time="0.002"/>
-  <testcase name="testValidatePayloadLength_EmptyPayload_ReturnsSuccessMessage" classname="st10485573test.MessageTest" time="0.001"/>
-  <testcase name="testStoreMessage_Draft_CreatesFileWithIndex0(Path)" classname="st10485573test.MessageTest" time="0.12"/>
-  <testcase name="testValidatePayloadLength_ValidPayload_ReturnsSuccessMessage" classname="st10485573test.MessageTest" time="0.006"/>
-  <testcase name="testValidatePayloadLength_NullPayload_ReturnsFailureMessage" classname="st10485573test.MessageTest" time="0.007"/>
-  <testcase name="testGetGeneratedIdNotification_ReturnsCorrectFormat" classname="st10485573test.MessageTest" time="0.004"/>
-  <testcase name="testSentMessage_PayloadTooLong_ReturnsFailure" classname="st10485573test.MessageTest" time="0.002"/>
-  <testcase name="testStoreMessage_SentMessage_CreatesFileWithCorrectIndexAndHash(Path)" classname="st10485573test.MessageTest" time="0.014"/>
-  <testcase name="testValidateRecipientNumber_ValidFormat_ReturnsSuccessMessage" classname="st10485573test.MessageTest" time="0.001"/>
+  <testcase name="testCreateMessageHash_WithOneWordPayload_ReturnsCorrectHash" classname="st10485573test.MessageTest" time="0.056"/>
 </testsuite>

@@ -233,11 +233,14 @@ public class LoginGUI extends javax.swing.JFrame
 
         // Show them the result
         JOptionPane.showMessageDialog(this, status);
+        
         if (loggedIn)
         {
-            MessageGUI messageGUI = new MessageGUI();
+            // If login is successful, open the message GUI
+            // We pass the username so the message part knows who is logged in
+            MessageGUI messageGUI = new MessageGUI(login.getUsername());
             messageGUI.startMessagingInteraction();
-            dispose(); // Close this form
+            dispose(); // Close this login form
         }
     }//GEN-LAST:event_loginButtonActionPerformed
 
